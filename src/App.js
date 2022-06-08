@@ -1,7 +1,7 @@
 
 import './App.css';
-// import Dem from './components/Dem';
-import Coin from './components/Coin';
+import Dem from './components/Dem';
+// import Coin from './components/Coin';
 // import Main from './components/Main';
 
 
@@ -9,9 +9,9 @@ import Coin from './components/Coin';
 function App() {
   return (
     <div className="App">
-     <Coin/>
+     {/* <Coin/> */}
      {/* <Main/> */}
-   {/* <Dem/> */}
+   <Dem/>
     </div>
   );
 }
