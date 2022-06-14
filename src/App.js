@@ -1,17 +1,18 @@
 
-import './App.css';
-import Dem from './components/Dem';
-// import Coin from './components/Coin';
-// import Main from './components/Main';
+
+
+import Coin from './components/Coin';
+import Toggle from './components/Toggle';
+
 
 
 
 function App() {
   return (
     <div className="App">
-     {/* <Coin/> */}
-     {/* <Main/> */}
-   <Dem/>
+      <Toggle/>
+     <Coin/>
+  
     </div>
   );
 }
